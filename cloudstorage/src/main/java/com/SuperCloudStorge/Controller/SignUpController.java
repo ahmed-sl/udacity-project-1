@@ -31,7 +31,7 @@ public class SignUpController {
            model.addAttribute("signupError" , true);
            model.addAttribute("signupErrorMassage" , "Username not available");
          }
-        return "signup";
+        return "redirect:/login";
     }
 }
 
